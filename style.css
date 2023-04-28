@@ -1,0 +1,56 @@
+*{
+    margin: 0pc;
+}
+body{
+    background-image:linear-gradient(rgb(32, 154, 154) , rgb(0, 255, 119)) ;
+    min-height: 100vh;
+}
+h1{
+    text-align:center;
+}
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px 0px black;
+    font-size: 0ch;
+    background-color: black;
+    border-radius: 1rem;
+}
+.card:hover{
+    box-shadow: 0px 16px 32px 0px;
+}
+   
+.cal-header #result{
+    width: 335px;
+    height: 150px;
+    background-color: rgba(73, 71, 71, 0.77);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+    padding: 0px 5px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    border-radius: 1rem;
+}
+.btn{
+    width: 83px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin: 2px;
+    margin-top: 10px;
+    background-color: rgb(46, 46, 68);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+.btn-style{
+    background-color:rgb(71, 71, 143) ;
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
+}
